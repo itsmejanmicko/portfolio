@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.terminal-scroll-container {
+  overflow: scroll; 
+  scrollbar-width: none; 
+}
+
+/* For Webkit-based browsers (Chrome, Safari, Edge) */
+.terminal-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+/* Tailwind Default Classes */
+.bg-gray-900 {
+  background-color: #1a202c;
+}
+
+.text-gray-100 {
+  color: #f7fafc;
+}
+
+/* Dark Mode Classes */
+.dark .bg-gray-900 {
+  background-color: #2d3748;
+}
+
+.dark .text-gray-100 {
+  color: #e2e8f0;
+}
