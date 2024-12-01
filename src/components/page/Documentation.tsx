@@ -41,7 +41,7 @@ export default function Documentation() {
                       loop
                       muted
                       playsInline
-                      src="../../../public/bunny.mp4"
+                      src="https://res.cloudinary.com/dgw5chjkw/video/upload/v1733068440/wqunly3ptoamntonrsch.mp4"
                     />
                   </div>
                 </div>
