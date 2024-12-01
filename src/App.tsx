@@ -30,7 +30,7 @@ const App: React.FC = () => {
         </Route>
       </Routes>
 
-     <div className='mt-10'>
+     <div className=''>
       <Footer />
      </div>
     </>

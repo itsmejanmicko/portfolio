@@ -1,6 +1,6 @@
 export default function Docs() {
     return (
-      <div className="max-w-3xl mx-auto px-4 py-8 md:py-12">
+      <div className="max-w-3xl mx-auto px-4 py-8 md:py-12 mb-10">
         <article className="prose prose-slate max-w-none">
           <h1 className="text-3xl font-bold tracking-tight mb-6">Docs</h1>
           
