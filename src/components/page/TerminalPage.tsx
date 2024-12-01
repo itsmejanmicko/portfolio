@@ -1,5 +1,5 @@
-import React, { ChangeEvent, useState, KeyboardEvent } from 'react';
-import { useNavigate } from 'react-router-dom';  // Import useNavigate for navigation
+import { ChangeEvent, useState, KeyboardEvent } from 'react';
+import { useNavigate } from 'react-router-dom';  
 
 export default function TerminalPage() {
   const [currentDirectory, setCurrentDirectory] = useState("C:\\Users\\Portfolio");
