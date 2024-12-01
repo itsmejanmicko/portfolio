@@ -53,7 +53,7 @@ export default function LandingPage() {
         muted
         playsInline
         onCanPlay={handleCanPlay} 
-        src="https://res.cloudinary.com/dgw5chjkw/video/upload/v1733068440/wqunly3ptoamntonrsch.mp4"
+        src="https://res.cloudinary.com/dgw5chjkw/video/upload/v1733068497/oh0w0jkworkhrmchumpk.mp4"
       />
      {isLoading ? (
        <p>Hang on there......</p>
