@@ -36,7 +36,7 @@ export default function LandingPage() {
     return () => clearTimeout(timer);
   }, [index, isDeleting, username]);
   return (
-    <main className="h-screen flex items-center justify-center sm:relative fixed bg-gray-900 text-gray-100">
+    <main className="h-screen w-full flex items-center justify-center sm:relative fixed bg-gray-900 text-gray-100 m-0 p-0">
     <div className="flex flex-col items-center justify-center w-96">
       <video
         className="w-full h-full object-cover rounded-lg"
@@ -49,5 +49,6 @@ export default function LandingPage() {
       <label className="text-center text-2xl font-poppins font-bold">Ohayoo, {displayedName}</label>
     </div>
   </main>
+  
   );
 }
