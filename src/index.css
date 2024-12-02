@@ -8,11 +8,10 @@
   scrollbar-width: none; 
 }
 
-/* For Webkit-based browsers (Chrome, Safari, Edge) */
 .terminal-scroll-container::-webkit-scrollbar {
   display: none;
 }
-/* Tailwind Default Classes */
+
 .bg-gray-900 {
   background-color: #1a202c;
 }
@@ -21,7 +20,7 @@
   color: #f7fafc;
 }
 
-/* Dark Mode Classes */
+
 .dark .bg-gray-900 {
   background-color: #2d3748;
 }

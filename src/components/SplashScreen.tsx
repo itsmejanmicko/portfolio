@@ -36,7 +36,7 @@ export default function SplashScreen() {
         {/* Terminal-like content */}
         <div className="bg-black text-green-500 p-6 font-mono text-lg h-full flex flex-col justify-center items-center">
           <div className="mb-4 text-center">
-            <span>{spinner}</span> Installing...
+            <span>{spinner}</span> Initializing.......
           </div>
           <div className="w-full bg-gray-700 rounded-full h-2 mt-4">
             <div

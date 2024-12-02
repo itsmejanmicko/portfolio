@@ -39,7 +39,7 @@ export default function LandingPage() {
     return () => clearTimeout(timer);
   }, [index, isDeleting, username]);
   return (
-    <main className="h-screen flex items-center justify-center relative">
+    <main className="h-screen flex items-center justify-center sm:relative fixed">
     <div className="flex flex-col items-center justify-center w-96">
       {isLoading && (
         <div className="absolute w-full h-full flex items-center justify-center bg-gray-700 bg-opacity-50 z-10">

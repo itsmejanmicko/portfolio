@@ -29,10 +29,7 @@ const App: React.FC = () => {
           <Route path="/projects" element={<Projects />} />
         </Route>
       </Routes>
-
-     <div className=''>
-      <Footer />
-     </div>
+      {location.pathname !== "/" && <Footer />}
     </>
   );
 };
