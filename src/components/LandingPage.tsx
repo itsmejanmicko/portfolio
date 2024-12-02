@@ -6,10 +6,7 @@ export default function LandingPage() {
   const [displayedName, setDisplayedName] = useState("");
   const username = data ? data.charAt(0).toUpperCase() + data.slice(1) : "";
   const [isDeleting, setIsDeleting] = useState(false);
-  const [isLoading, setIsloading] = useState(true);
-  const handleCanPlay = () => {
-    setIsloading(false); 
-  };
+
   useEffect(() => {
     let timer:number;
 
@@ -41,25 +38,15 @@ export default function LandingPage() {
   return (
     <main className="h-screen flex items-center justify-center sm:relative fixed">
     <div className="flex flex-col items-center justify-center w-96">
-      {isLoading && (
-        <div className="absolute w-full h-full flex items-center justify-center bg-gray-700 bg-opacity-50 z-10">
-          <img src="" alt="Loading..." />
-        </div>
-      )}
       <video
         className="w-full h-full object-cover rounded-lg"
         autoPlay
         loop
         muted
         playsInline
-        onCanPlay={handleCanPlay} 
         src="https://res.cloudinary.com/dgw5chjkw/video/upload/v1733068497/oh0w0jkworkhrmchumpk.mp4"
       />
-     {isLoading ? (
-       <p>Hang on there......</p>
-     ):(
       <label className="text-center text-2xl font-poppins font-bold">Ohayoo, {displayedName}</label>
-     )}
     </div>
   </main>
   );
