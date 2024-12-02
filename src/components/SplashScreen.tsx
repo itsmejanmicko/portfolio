@@ -25,7 +25,7 @@ export default function SplashScreen() {
   }, [spinner, progress]);
  
   return (
-    <div className="min-h-screen bg-gray-900 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gray-800 flex items-center justify-center p-4">
       <div className="w-screen max-w-4xl h-96 bg-gradient-to-b from-gray-800 to-gray-900 rounded-lg shadow-lg overflow-hidden">
         <div className="bg-gray-800 p-2 flex items-center space-x-1">
           <div className="w-3 h-3 rounded-full bg-red-500"></div>
