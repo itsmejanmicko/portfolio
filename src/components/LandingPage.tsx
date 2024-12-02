@@ -36,7 +36,7 @@ export default function LandingPage() {
     return () => clearTimeout(timer);
   }, [index, isDeleting, username]);
   return (
-    <main className="h-screen flex items-center justify-center sm:relative fixed">
+    <main className="h-screen flex items-center justify-center sm:relative fixed bg-gray-900 text-gray-100">
     <div className="flex flex-col items-center justify-center w-96">
       <video
         className="w-full h-full object-cover rounded-lg"

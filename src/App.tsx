@@ -15,9 +15,8 @@ const App: React.FC = () => {
   const location = useLocation();
 
   return (
-    <>
+    <main className=' bg-gray-900 text-gray-100'>
       {location.pathname !== "/" && <Nav />}
-      
       <Routes>
         <Route path="/" element={<Terminal />} />
         <Route element={<ProtectedRoute />}>
@@ -30,7 +29,7 @@ const App: React.FC = () => {
         </Route>
       </Routes>
       {location.pathname !== "/" && <Footer />}
-    </>
+    </main>
   );
 };
 
