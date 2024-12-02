@@ -2,12 +2,12 @@ import Docs from "../common/Docs";
 
 export default function Documentation() {
   return (
-    <main className="bg-gray-900 text-gray-100 min-h-screen p-2 mt-12 sm:mt-0"> 
+    <main className="bg-gray-900 text-gray-100 min-h-screen p-2 sm:mt-0"> 
       <div className="min-h-screen bp-14 md:p-12 flex items-center">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column */}
           <div className="space-y-8">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-mono font-bold leading-tight">
+            <h1 className="text-3xl md:text-5xl mt-12 sm:mt-0 lg:text-6xl font-mono font-bold leading-tight">
               Let's explore my<br />Portfolio
             </h1>
 

@@ -1,6 +1,6 @@
 export default function Docs() {
     return (
-      <div className="max-w-3xl mx-auto px-4 py-8 md:py-12 mb-10 ">
+      <div className="max-w-3xl mx-auto px-4 py-4 sm:py-12 mb-10">
         <article className="prose prose-slate max-w-none">
           <h1 className="text-3xl font-bold tracking-tight mb-6">Docs</h1>
           
@@ -11,7 +11,7 @@ export default function Docs() {
           <h2 className="text-2xl font-semibold tracking-tight mt-8 mb-4">How to navigate pages.</h2>
           
           <p className="mb-4">
-          To navigate to the "Project," "AboutMe," and "Tech" sections, click the terminal icon in the footer. Change the directory by typing `cd Projects`, `cd About`, or `cd Tech` as needed. To start the respective section, use the command `npm start` or `npm run start`.
+          To navigate to the "Project," "AboutMe," and "Tech" sections, click the terminal icon in the footer. Change the directory by typing `cd Projects`, `cd Aboutme`, or `cd Tech` as needed. To start the respective section, use the command `npm start` or `npm run start`.
           </p>
   
                 <div className="bg-gray-400 dark:bg-gray-700 rounded-lg text-white p-4 my-6 font-mono text-sm">
