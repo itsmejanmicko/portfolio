@@ -1,6 +1,6 @@
 export default function Docs() {
     return (
-      <div className="max-w-3xl mx-auto px-4 py-4 sm:py-12 mb-10">
+      <div className="max-w-3xl mx-auto px-4 py-4 sm:py-12 mb-16">
         <article className="prose prose-slate max-w-none">
           <h1 className="text-3xl font-bold tracking-tight mb-6">Docs</h1>
           
@@ -35,7 +35,7 @@ export default function Docs() {
             You should see the page after you click the run start. If you want to go back to the previous page, type `cd..` and press Enter. If there's no response, make sure you type correctly the directory otherwise its not changing the directory.
           </p>
           <p className="mb-4">
-            If you want to exit the terminal, type `exit` and press Enter. This will take you back to the home page.
+            If you want to exit the terminal, type `exit` and press Enter. This will take you back to the first page.
           </p>
            
           <h2 className="text-2xl font-semibold tracking-tight mt-8 mb-4">Note:</h2>
