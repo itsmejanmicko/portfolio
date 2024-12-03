@@ -41,6 +41,7 @@ export default function Education() {
         </div>
       </div>
       </section>
+     
     </main>
   )
 }
