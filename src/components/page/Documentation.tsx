@@ -3,7 +3,7 @@ import Docs from "../common/Docs";
 export default function Documentation() {
   return (
     <main className="bg-gray-900 text-gray-100 min-h-screen p-2 sm:mt-0"> 
-      <div className="min-h-screen bp-14 md:p-12 flex items-center">
+      <div className="min-h-screen md:p-12 flex items-center">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column */}
           <div className="space-y-8">
@@ -17,7 +17,7 @@ export default function Documentation() {
           </div>
 
           {/* Right Column - Illustration */}
-          <div className="relative">
+          <div className="relative ">
             <div className="relative w-full aspect-square">
               {/* Background decorative elements */}
               <div className="absolute top-0 right-0 w-4 h-4 text-lime-400 z-10">+</div>
