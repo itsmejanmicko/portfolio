@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Wifi, Battery, Sun,Moon } from "lucide-react"; 
+import { Sun,Moon } from "lucide-react"; 
 
 
 export default function Nav(){
@@ -49,9 +49,6 @@ export default function Nav(){
 
     {/* Right Section */}
     <div className="flex space-x-4 items-center">
-      <Wifi className={`h-5 w-5 cursor-pointer ${isDarkMode ? 'text-white' : 'text-black'} hover:text-gray-100`} />
-      <Battery className={`h-5 w-5 cursor-pointer ${isDarkMode ? 'text-white' : 'text-black'} hover:text-gray-100`} />
-      {/* Settings Button */}
       <button
         className="p-2 rounded-full text-gray-300 hover:text-gray-100"
         onClick={() => setIsDarkMode(!isDarkMode)}
