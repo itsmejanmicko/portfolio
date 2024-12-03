@@ -27,18 +27,18 @@ export default function Terminal() {
   return (
     <main className="bg-gray-800 overflow-hidden h-screen fixed w-full">
       {isOpen ? <Help isOpen={isOpen} closeModal={closeModal} /> : null}
-      <div className="relative z-10 flex items-end justify-end p-4">
+      <div className=" z-10 flex items-end justify-end p-2">
         <button onClick={handleHelp}>
-          <HelpCircle className="w-8 h-8 text-white" />
+          <HelpCircle className="w-8 h-6 text-white" />
         </button>
       </div>
 
-      <div className="min-h-screen flex items-center justify-center bg-gray-800">
+      <div className="min-h-screen flex items-center justify-center bg-gray-800 inset-0 p-2">
         {showSplash ? (
           <SplashScreen />
         ) : (
-          <section>
-            <div className="w-full max-w-4xl h-[60vh] bg-gray-700 rounded-lg shadow-lg overflow-hidden fixed inset-0 m-auto">
+          <section className="p-2">
+            <div className="w-ful max-w-4xl h-[60vh] bg-gray-700 rounded-lg shadow-lg overflow-hidden fixed inset-0 m-auto">
               <div className="bg-gray-700 p-2 flex items-center space-x-1">
                 <div className="w-3 h-3 rounded-full bg-red-500"></div>
                 <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
